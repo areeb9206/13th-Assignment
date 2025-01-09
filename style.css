@@ -1,6 +1,8 @@
+/* STYLING FOR INDEX PAGE */
+
 .nav-bars {
   margin: 0 20px;
-
+  background-color: grey;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .main-container {
@@ -14,11 +16,12 @@
 }
 
 /* FOR LOGO  */
+
 .logo-container {
   font-size: 18px;
   font-weight: 500;
   color: #ffffff;
-  margin: 14px auto;
+  margin: 0 auto;
   justify-content: space-between;
   display: inline-block;
   height: fit-content;
@@ -27,6 +30,7 @@
 }
 
 /* FOR LINKS */
+
 .links {
   font-weight: 600;
   font-size: 16px;
@@ -48,6 +52,7 @@ a:hover {
 }
 
 /* FOR BUTTON  */
+
 .buttons {
   margin: 8px auto;
   display: inline-block;
@@ -70,12 +75,33 @@ button:hover {
   text-decoration: underline;
 }
 
+/* FOR SECOND PAGE LINK BUTTON */
+
+.card-link {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+  font-size: 24px;
+  background-color: #00bcd4;
+  width: fit-content;
+  margin: auto;
+  padding: 8px 15px;
+  border-radius: 30px;
+}
+.card-link:hover {
+  color: black;
+  text-shadow: 4px 4px 5px rgb(102, 102, 102);
+}
+
+/* STYLING FOR CARDS PAGE  */
+
 .cards {
-  margin: 0%;
+  margin: 60px 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #87a6e7;
 }
 .main-container2 {
-  border: 2px black solid;
   height: 500px;
   width: 1000px;
   display: flex;
@@ -84,35 +110,45 @@ button:hover {
   background-color: #87a6e7;
 }
 
+/* FIRST CARD  */
+
 .first {
   margin: auto 0;
   border-radius: 20px;
-  /* border: 2px rgb(141, 101, 101) solid; */
   height: 445px;
   width: 300px;
   background-color: white;
 }
 
+/* SECOND CARD  */
+
 .second {
   margin: auto 20px;
   border-radius: 20px;
-  /* border: 2px rgb(141, 101, 101) solid; */
   height: 445px;
   width: 300px;
   background-color: white;
 }
+
+/* THIRD CARD  */
+
 .third {
   margin: auto 0;
   border-radius: 20px;
-  /* border: 2px rgb(141, 101, 101) solid; */
   height: 445px;
   width: 300px;
   background-color: white;
 }
+
+/* FOR ALL CARDs IMAGE */
+
 img {
   border-top-left-radius: 18px;
   border-top-right-radius: 18px;
 }
+
+/* FOR SUBHEADING INSIDE CARD  */
+
 .sub-heading {
   margin-left: 8px;
   color: aliceblue;
@@ -122,26 +158,33 @@ img {
   border-radius: 20px;
   margin-bottom: 5px;
 }
+
+/* FOR CARDS HEADING  */
+
 h2 {
   line-height: 25px;
   margin-left: 8px;
   margin-top: 0%;
   margin-bottom: 8px;
 }
+
+/* FOR PARAGRAPH INSIDE THE CARD  */
+
 .para {
-  /* margin-top: 0%; */
   margin-left: 8px;
-  text-align: ;
-  /* margin-right: 8px; */
+  text-align: justify;
+  margin-right: 8px;
 }
 
+/* FOR USER CSS INSIDE CARDS  */
+
 .second-para {
-  margin-left: 8px;
+  margin-left: 10px;
   line-height: 15px;
 }
 i {
   position: fixed;
-  top: 445px;
+  top: 505px;
 }
 span {
   font-size: small;
